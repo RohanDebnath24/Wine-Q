@@ -24,6 +24,8 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+```
+
 # loading the dataset to a Pandas DataFrame
 wine_dataset = pd.read_csv('/content/winequality-red.csv')
 
